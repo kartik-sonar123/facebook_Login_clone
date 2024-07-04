@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+ html,body
+ {
+    height:100%;
+    width:100%;
+ }
+.main
+{
+    height:100vh;
+    width:100vw;
+    background-color:#ecf0f7;
+}
+
+.main #sec_1
+{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+
+.sec_1_left
+{
+    width:52%;
+    /* height:100%; */
+}
+.sec_1_left #logo{
+    margin-top:14.8vw;
+    margin-left:11.7vw;
+    font-size:4.5vw;
+    font-weight: 665;
+    color: #1877F2;
+    line-height:6.5vw;
+    font-family:Helvetica, Arial, sans-serif;
+}
+.sec_1_left h2{
+    margin-top:0.2vh;
+    margin-left:11.7vw;
+    font-size: 2.2vw;
+    font-weight:normal;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    line-height:2.5vw;
+}
+.sec_1_right
+{
+    width:48%;
+    /* height:100vh; */
+}
+
+.sec_1_right .login
+{
+    margin-top:10.2vw;
+    margin-left:5vw;
+    background-color: white;
+    border-radius:9px;
+    width:64%;
+    height:58%;
+}
+.login input
+{
+    padding:1vw 1.5vw;
+    width:92%;
+    border-radius:7px;
+    border: 1px solid #ccd0d5;
+    outline-color: #1877F2;
+    font-size:1.4vw;
+}
+.login #input-1
+{
+    margin-top:1.2vw;
+    margin-left:1.2vw;
+}
+.login #input-2
+{
+    margin:0.9vw 1.2vw;
+}
+
+.sec_1_right .login-btn
+{
+    padding:1vw 1.5vw;
+    background-color: #1877F2;
+    width:92%;
+    margin-top:0.5vw;
+    margin-left:1.2vw;
+    font-size:1.5vw;
+    font-weight:700;
+    color:white;
+    border-radius:7px;
+    border:none;
+}
+.sec_1_right #for_pass
+{
+    color: #1877F2;
+    font-size:1.3vw;
+    text-decoration:none;
+    margin-left:10vw;
+    margin-top:1.3vw;
+}
+.sec_1_right #for_pass:hover
+{
+    text-decoration: underline;
+}
+.sec_1_right hr
+{
+    margin-top:1.3vw;
+    margin-left:1vw;
+    margin-right:1vw;
+}
+.sec_1_right #account
+{
+    background-color: #00A400;;
+    color:white;
+    font-size:1.3vw;
+    font-weight:600;
+    margin-left:8vw;
+    margin-top:2.2vw;
+    padding:1.1vw 1.7vw;
+    border:none;
+    border-radius:8px;
+}
+.sec_1_right a
+{
+    text-decoration: none;
+    color:black;
+    font-weight:800;
+}
+.sec_1_right a:hover
+{   
+    text-decoration:underline;
+}
+.sec_1_right .text
+{
+    margin:2.3vw 8.5vw;
+}
